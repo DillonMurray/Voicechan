@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Voice-chan",
+  "description": "This extension provides text-to-speech for browsing 4chan.",
+  "version": "0.0.0.3",
+  "content_scripts": [
+    { 
+	"matches": ["http://boards.4chan.org/*", "https://www.youtube.com/*", "http://www.youtube.com/*"], 
+	"js": ["jquery-2.1.1.min.js", "content.js"]}
+  ],
+  
+  "background": {
+	"scripts": ["jquery-2.1.1.min.js", "background.js"],
+	"persistent": true
+  },
+  
+  "permissions": [
+	"tabs", 
+	"storage",
+	"tts"
+  ],
+  
+  "icons": {
+	"microphone": "microphone.png"
+  },
+  
+  "page_action": {
+    "default_name": "Voice-chan",
+	"default_icon": "microphone.png"
+  }
+
+}

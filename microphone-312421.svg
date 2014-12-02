@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="640" xmlns="http://www.w3.org/2000/svg" height="480">
+ <defs>
+  <filter id="filter3884">
+   <feGaussianBlur id="feGaussianBlur3886" stdDeviation="1.095369"/>
+  </filter>
+  <filter id="filter3870">
+   <feGaussianBlur id="feGaussianBlur3872" stdDeviation="0.825532"/>
+  </filter>
+  <filter id="filter3858" y="-.00637" width="1.2066" height="1.0127" x="-.10329">
+   <feGaussianBlur id="feGaussianBlur3860" stdDeviation="0.215186"/>
+  </filter>
+  <filter id="filter3862" y="-.32644" width="1.0122" height="1.6529" x="-.006112">
+   <feGaussianBlur id="feGaussianBlur3864" stdDeviation="0.680085"/>
+  </filter>
+ </defs>
+ <g id="layer1">
+  <g id="g4730" stroke="#000">
+   <rect id="rect4651" transform="matrix(.64987 0 0 .68659 -54.685 -223.64)" rx="66.053" ry="66.053" height="303.53" filter="url(#filter3884)" width="132.11" y="462.16" x="424.7" stroke-width="5"/>
+   <g id="g4725" fill="none">
+    <path id="path4653" filter="url(#filter3870)" stroke-width="23.643" d="m327.34 226.97v33.094c0 33.935-28.143 61.254-63.1 61.254-34.958-0.000031-63.1-27.319-63.1-61.254v-33.094"/>
+    <g fill-rule="evenodd">
+     <path id="path4655" filter="url(#filter3858)" stroke-width="22.206" d="m264.24 320.66v52.154"/>
+     <path id="path4657" filter="url(#filter3862)" stroke-width="32.415" d="m216.04 372.81h96.406"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
