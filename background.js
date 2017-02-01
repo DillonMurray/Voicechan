@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener(function(request) {
 	messages = '',
 	message = request.text;
 	
-	if (message.constructor === Arra ) {
+	if (message.constructor === Array) {
 		for (i = 0; i < message.length; i++) {
 			console.log(message[i]);
 			chrome.downloads.download({"url": message[i]}, function(id){});
